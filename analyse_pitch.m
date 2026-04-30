@@ -116,7 +116,7 @@ for f = 1:numFrames
                        'YData', [pts(a,2), pts(b,2)]);
     end
     set(hJoints, 'XData', pts(:,1), 'YData', pts(:,2));
-    set(hTitle, 'String', sprintf('Frame %d/%d', f, numFrames));
+    set(hTitle, 'String', sprintf('v2 | Frame %d/%d', f, numFrames));
 
     drawnow limitrate;
     writeVideo(out, getframe(figVid));
