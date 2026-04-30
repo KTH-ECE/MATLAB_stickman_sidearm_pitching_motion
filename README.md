@@ -3,7 +3,7 @@
 *analysing a baseball pitcher's sidearm pitching movement from sideview*
  
  
-**Toolboxes used for v2:**
+**MATLAB Toolboxes**
 - Image Processing Toolbox
 - Computer Vision Toolbox
 - Signal Processing Toolbox
